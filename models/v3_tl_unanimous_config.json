@@ -1,0 +1,55 @@
+{
+  "version": "V3-TL Unanimous",
+  "strategy": "Gradual Unfreeze + KD + Unanimous Agreement",
+  "output_method": "UNANIMOUS (both models must agree)",
+  "kd_alpha": 0.7,
+  "kd_temperature": 3.0,
+  "mixup_alpha": 0.2,
+  "phases": {
+    "phase1": {
+      "lr": 0.0003,
+      "epochs": 15,
+      "layers": "Head only"
+    },
+    "phase2": {
+      "lr_lstm": 5e-05,
+      "lr_fc": 0.0001,
+      "epochs": 20,
+      "layers": "LSTM + Head"
+    },
+    "phase3": {
+      "lr_cnn": 1e-06,
+      "lr_lstm": 5e-06,
+      "lr_fc": 5e-05,
+      "epochs": 20,
+      "layers": "All"
+    }
+  },
+  "results": {
+    "svm": {
+      "train_acc": 100.0,
+      "test_acc": 76.68631303208906,
+      "test_f1": 76.63970551670366,
+      "cv_acc": 77.50262054507337,
+      "cv_std": 1.256700962581779
+    },
+    "cnn": {
+      "train_acc": 89.90171516669878,
+      "test_acc": 89.91486574983628,
+      "test_f1": 89.89509701331347,
+      "gap": -0.01315058313750228,
+      "start_acc": 93.18925998690243,
+      "p1_acc": 70.13752455795678,
+      "p2_acc": 89.19449901768172,
+      "p3_acc": 89.91486574983628
+    },
+    "unanimous": {
+      "agreement_rate": 73.6738703339882,
+      "unanimous_acc": 96.71111111111111,
+      "unanimous_f1": 96.73597233992233,
+      "coverage_acc": 71.25081859855926,
+      "abstention_rate": 26.326129666011788,
+      "all_pass": true
+    }
+  }
+}
