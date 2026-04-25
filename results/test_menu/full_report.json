@@ -1,0 +1,33 @@
+{
+  "svm_acc": 76.29338572364112,
+  "cnn_acc": 89.84937786509497,
+  "agree_rate": 73.80484610347085,
+  "unan_acc": 96.53948535936114,
+  "abstention": 26.195153896529145,
+  "per_gesture": {
+    "Rest": {
+      "agreement_rate": 14.603798297314995,
+      "unanimous_acc": 96.41255605381166
+    },
+    "Grasp (Hand Close)": {
+      "agreement_rate": 11.00196463654224,
+      "unanimous_acc": 91.66666666666666
+    },
+    "Hand Open": {
+      "agreement_rate": 10.936476751800917,
+      "unanimous_acc": 98.20359281437125
+    },
+    "Pinch": {
+      "agreement_rate": 11.591355599214145,
+      "unanimous_acc": 97.74011299435028
+    },
+    "Point": {
+      "agreement_rate": 12.573673870333987,
+      "unanimous_acc": 97.39583333333334
+    },
+    "Wave": {
+      "agreement_rate": 13.097576948264573,
+      "unanimous_acc": 97.5
+    }
+  }
+}
