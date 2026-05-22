@@ -521,7 +521,7 @@ This means you are free to use, copy, modify, and distribute this project, comme
  
 ## Acknowledgements
  
-- **NinaPro**  [ninapro.hevs.ch](http://ninapro.hevs.ch/) for the publicly available DB2 sEMG dataset that underpins this work.
+- **NinaPro**  [ninapro.hevs.ch](http://ninapro.hevs.ch/) for the publicly available DB5 sEMG dataset that underpins this work.
 - **RoninHand**  [Polymorph Intelligence](https://polymorph-ai.gitbook.io/roninhand-documentation) for the open-source 3D-printed hand design we forked.
 
 ---
