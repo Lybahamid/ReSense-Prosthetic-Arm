@@ -40,7 +40,7 @@
   <img src="https://img.shields.io/badge/Gestures-6%20Classes-005F73?style=for-the-badge" alt="Gestures"/>
   <img src="https://img.shields.io/badge/Cross--Subject-10%20Subjects-7C3AED?style=for-the-badge" alt="Subjects"/>
   <img src="https://img.shields.io/badge/Transfer%20Learning-Strategy%20B-0EA5E9?style=for-the-badge" alt="Transfer Learning"/>
-  <img src="https://img.shields.io/badge/Dataset-NinaPro%20DB2-6D28D9?style=for-the-badge" alt="NinaPro"/>
+  <img src="https://img.shields.io/badge/Dataset-NinaPro%20DB5-6D28D9?style=for-the-badge" alt="NinaPro"/>
   <img src="https://img.shields.io/badge/DOF-4%E2%80%935%20Degrees-0A9396?style=for-the-badge" alt="DOF"/>
   <img src="https://img.shields.io/badge/Feedback-Vibrotactile-E76F51?style=for-the-badge" alt="Feedback"/>
 
