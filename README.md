@@ -328,13 +328,13 @@ pandas>=2.0.0*
  
 ### 4. Dataset Setup
  
-ReSense uses the **NinaPro DB2** dataset for training and evaluation.
+ReSense uses the **NinaPro DB5** dataset for training and evaluation.
  
-1. Download NinaPro DB2 from [http://ninapro.hevs.ch/](http://ninapro.hevs.ch/)
-2. Place subject files under `data/ninapro_db2/` in the following structure:
+1. Download NinaPro DB5 from [http://ninapro.hevs.ch/](http://ninapro.hevs.ch/)
+2. Place subject files under `data/ninapro_db5/` in the following structure:
 ```
 data/
-└── ninapro_db2/
+└── ninapro_db5/
     ├── S1_E1_A1.mat
     ├── S1_E2_A1.mat
     └── ... (S1 through S10)
