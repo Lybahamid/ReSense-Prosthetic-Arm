@@ -148,7 +148,7 @@ Designed for deployment in resource-constrained clinics.
 | Microcontroller | Arduino | EMG signal acquisition at 1000 Hz |
 | Hardware | BioAmp EXG Pill | 16-channel surface EMG acquisition |
 | Feedback | Coin motors + FSR | Vibrotactile grip force feedback |
-| Dataset | NinaPro DB2 | 10-subject, 8-gesture benchmark for training/evaluation |
+| Dataset | NinaPro DB5 | 10-subject, 8-gesture benchmark for training/evaluation |
  
 ---
  
